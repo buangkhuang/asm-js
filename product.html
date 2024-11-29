@@ -1,0 +1,19 @@
+<form id="productForm" onsubmit="return addProduct(event)">
+    <div class="mb-3">
+        <label for="productName" class="form-label">Tên sản phẩm</label>
+        <input type="text" class="form-control" id="productName" required>
+    </div>
+    <div class="mb-3">
+        <label for="productPrice" class="form-label">Giá sản phẩm</label>
+        <input type="number" class="form-control" id="productPrice" required>
+    </div>
+    <div class="mb-3">
+        <label for="productDescription" class="form-label">Mô tả sản phẩm</label>
+        <textarea class="form-control" id="productDescription" rows="3" required></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="productImage" class="form-label">Tải ảnh sản phẩm</label>
+        <input type="file" class="form-control" id="productImage" accept="image/*" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Thêm sản phẩm</button>
+</form>

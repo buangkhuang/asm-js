@@ -1,0 +1,32 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+#productSlider img {
+    height: 400px;
+    object-fit: cover;
+}
+.card img {
+    transition: transform 0.3s ease; /* Tạo hiệu ứng mượt mà */
+}
+
+.card img:hover {
+    transform: scale(1.1); /* Phóng to ảnh lên 10% */
+    cursor: pointer; /* Thay đổi con trỏ chuột thành hình chỉ tay */
+}
